@@ -71,7 +71,7 @@ A entrada é um arquivo input.data que foi fornecido por um programa feito pelo 
 
 EXEMPLO DO INPUT.DATA
 
-## Implemetação 
+## Implementação 
  
 Na implementação é usada a linguagem c++ por terem muitas vantagens na manipulação de arquivos. 
 O primeiro passo da implementação é a abertura do arquivo para haver a manipulação do mesmo no programa. Depois se cria um arquivo para cada matriz e também se cria um arquivo para cada matriz com as mesmas dimensões só que preenchidos por 0 para quando for feita a movimentação , cada casa que o viajante visitar se tornar 1 e assim fazer o controle de quantas casas não foram visitadas. Como no exemplo abaixo:
@@ -87,11 +87,16 @@ EXEMPLO POSIÇÃO (0,0) DIREITA
 A saída do programa apresenta se você ganhou ou perdeu, depois o número de casas visitadas, quantos itens foram pegos no total , quantos perigos o viajante enfretou e quantas casas não foram visitadas em cada matriz.
 Veja a seguir no teste:
 
+## Informações adicionais
+
+O viajante começa com 10 vidas, com a sacola vazia e da posição (0,0) na primeira matriz.
+O algoritmo não foi tratado para o caso em que a matriz é toda de paredes, se ele for testado com um input.data dessa maneira provavelmente ficará compilando por um bom tempo sem nenhuma saída, será imprevisível visto que não foi testado e nem tratado para essa condição.
 
 ## Conclusão
 
+Logo, uma estratégia randômica é uma abordagem que usa uma fonte de aleatoriedade para fazer escolhas em um processo de tomada de decisão. Em muitos casos, essa abordagem pode ser difícil de se calcular o custo computacional como acontece na minha, mas existe a noção de que quanto maior o espaço de busca e a quantidade de aleatoriedade necessária, maior será o custo computacional do programa. 
 
-
+O meu programa está funcionando , mas não posso dizer que essa é a forma mais eficiente para se fazê-lo. Por isso, é importante avaliar cuidadosamente os prós e contras da abordagem randômica e sua aleatriedade em um programa.
 
 # Compilação e Execução
 
