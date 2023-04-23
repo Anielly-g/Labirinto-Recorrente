@@ -85,18 +85,21 @@ E por último existe o critério para vencer e para perder.
 
 A entrada é um arquivo input.data que foi fornecido por um programa feito pelo professor da disciplina , Michel Pires. Esse arquivo fornece a quantidade de linhas, colunas , quantidade de matriz(es) na primeira linha do arquivo e a(s) matriz(es) que sera(o) percorrida(s) no resto. Como no exemplo a seguir:
 
-EXEMPLO DO INPUT.DATA
+![image](https://user-images.githubusercontent.com/102706840/233865107-5508c1b2-bf35-4aba-982f-1b91d7e24b0a.png)
+
 
 ## Implementação 
  
 Na implementação é usada a linguagem c++ por terem muitas vantagens na manipulação de arquivos. 
 O primeiro passo da implementação é a abertura do arquivo para haver a manipulação do mesmo no programa. Depois se cria um arquivo para cada matriz e também se cria um arquivo para cada matriz com as mesmas dimensões só que preenchidos por 0 para quando for feita a movimentação , cada casa que o viajante visitar se tornar 1 e assim fazer o controle de quantas casas não foram visitadas. Como no exemplo abaixo:
 
-FIGURA DA ABERTURA DO ARQUIVO.
+![image](https://user-images.githubusercontent.com/102706840/233865172-3344dbbc-f960-46ee-8ca8-fa48b43a444a.png)
+
 
 Após isso, há um "do while" que tratará da movimentação do viajante nas matrizes. Nele, há as condições de cada movimentação. Por exemplo, se está na primeira casa da matriz (0,0) irá para uma função em que apenas poderá se movimentar para direita, baixo e diagonal inferior direita e essa movimentação será decidida de forma aleatória. Quando for decidida adireção que o viajante irá, o programa verifica se é perigo, parede ou item(s) e aplica as regras referente a cada um como o exemplo abaixo.
 
-EXEMPLO POSIÇÃO (0,0) DIREITA 
+![image](https://user-images.githubusercontent.com/102706840/233865206-ef8f889f-e2f9-449c-b813-de698126e850.png)
+
 
 ## Saída 
 
