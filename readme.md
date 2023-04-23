@@ -63,6 +63,7 @@ E por último existe o critério para vencer e para perder.
 | Perder | O viajante visitou muitas casas, muitas delas eram perigos e ele perdeu todas as suas 10 vidas|
 | -----------------------| ------------------------------------------------------------------------------------------------- |
 | Ganhar | O viajante visitou muitas casas, sem pegar nenhum item e nem ganhar vida, e conseguiu chegoar no ponto de partida na primeira matriz|
+| -----------------------| ------------------------------------------------------------------------------------------------- |
 
 
 
