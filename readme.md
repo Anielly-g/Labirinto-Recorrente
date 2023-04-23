@@ -65,6 +65,14 @@ E por último existe o critério para vencer e para perder.
 | Perder | O viajante visitou muitas casas, muitas delas eram perigos e ele perdeu todas as suas 10 vidas|
 | Ganhar | O viajante visitou muitas casas, sem pegar nenhum item e nem ganhar vida, e conseguiu chegoar no ponto de partida na primeira matriz|
 
+## Entrada
+
+A entrada é um arquivo input.data que foi fornecido por um programa feito pelo professor da disciplina , Michel Pires. Esse arquivo fornece a quantidade de linhas, colunas , quantidade de matriz(es) na primeira linha do arquivo e a(s) matriz(es) que sera(o) percorrida(s) no resto. Como no exemplo a seguir:
+
+EXEMPLO DO INPUT.DATA
+
+## Implemetação 
+ 
 
 
 
