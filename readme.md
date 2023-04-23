@@ -21,30 +21,38 @@ O caminho vai ser lido a partir de um arquivo chamado input.data. Na primeira li
 
 A partir desses dados será lido cada matriz, criado um arquivo para cada uma e o programa a salvará nele. Isso se deve ao fato de ser mais fácil e simples de acessar a matriz , visto que ela poderá ser acessada várias vezes e poderá ter o conteúdo mudado. Após isso, o viajante começará a andar e qualquer movimentação será decidida de forma aleatória. Os casos de movimetação são:
 
-FIGURA CASO 1
+![image](https://user-images.githubusercontent.com/102706840/233863299-062dfeeb-ba5e-45a3-b2e3-ea8f515450de.png)
+
 CASO 1- PRIMEIRA COLUNA E PRIMEIRA LINHA 
 
 O  caso 2 é uma exceção, depois voltaremos nele.
 
-FIGURA CASO 3
-CASO 3- ÚLTIMA LINHA E ÚLTIMA COLUNA
+![image](https://user-images.githubusercontent.com/102706840/233863386-2c756d65-b888-4e67-b6f1-af730bede6cf.png)
 
-FIGURA CASO 4
-CASO 4- PRIMEIRA COLUNA E QUALQUER COLUNA
+CASO 3- ÚLTIMA LINHA E PRIMEIRA COLUNA
 
-FIGURA CASO 5
+![image](https://user-images.githubusercontent.com/102706840/233863461-6296211c-936b-49c5-a19e-923ceff263c8.png)
+
+CASO 4- PRIMEIRA COLUNA E QUALQUER LINHA
+
+![image](https://user-images.githubusercontent.com/102706840/233863551-ab65b0f2-10ca-42d0-97b4-7f7960728daa.png)
+
 CASO 5- PRIMEIRA LINHA E ÚLTIMA COLUNA 
 
-FIGURA CASO 6
+![image](https://user-images.githubusercontent.com/102706840/233863637-217d98cc-cf32-406a-984f-10f298e8bfcf.png)
+
 CASO 6- ÚLTIMA COLUNA E QUALQUER LINHA
 
-FIGURA CASO 7
+![image](https://user-images.githubusercontent.com/102706840/233863720-083ba7af-3685-4af9-ae40-a2cb46554a54.png)
+
 CASO 7- ÚLTIMA LINHA E QUALQUER COLUNA
 
-FIGURA CASO 8
+![image](https://user-images.githubusercontent.com/102706840/233863835-cdf342a1-74af-4fca-9730-04172382032d.png)
+
 CASO 8- PRIMEIRA LINHA E QUALQUER COLUNA
 
-FIGURA CASO 9
+![image](https://user-images.githubusercontent.com/102706840/233863950-b9b066d7-beaa-45c0-88c5-e52246ecfb39.png)
+
 CASO 9- QUALQUER LINHA E QUALQUER COLUNA
 
 O programa irá escolher de forma aleatória qualquer uma das posições indicadas pelas setas tendo como base a posição do viajante.
