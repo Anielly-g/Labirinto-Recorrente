@@ -73,6 +73,23 @@ EXEMPLO DO INPUT.DATA
 
 ## Implemetação 
  
+Na implementação é usada a linguagem c++ por terem muitas vantagens na manipulação de arquivos. 
+O primeiro passo da implementação é a abertura do arquivo para haver a manipulação do mesmo no programa. Depois se cria um arquivo para cada matriz e também se cria um arquivo para cada matriz com as mesmas dimensões só que preenchidos por 0 para quando for feita a movimentação , cada casa que o viajante visitar se tornar 1 e assim fazer o controle de quantas casas não foram visitadas. Como no exemplo abaixo:
+
+FIGURA DA ABERTURA DO ARQUIVO.
+
+Após isso, há um "do while" que tratará da movimentação do viajante nas matrizes. Nele, há as condições de cada movimentação. Por exemplo, se está na primeira casa da matriz (0,0) irá para uma função em que apenas poderá se movimentar para direita, baixo e diagonal inferior direita e essa movimentação será decidida de forma aleatória. Quando for decidida adireção que o viajante irá, o programa verifica se é perigo, parede ou item(s) e aplica as regras referente a cada um como o exemplo abaixo.
+
+EXEMPLO POSIÇÃO (0,0) DIREITA 
+
+## Saída 
+
+A saída do programa apresenta se você ganhou ou perdeu, depois o número de casas visitadas, quantos itens foram pegos no total , quantos perigos o viajante enfretou e quantas casas não foram visitadas em cada matriz.
+Veja a seguir no teste:
+
+
+## Conclusão
+
 
 
 
