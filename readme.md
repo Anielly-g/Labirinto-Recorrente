@@ -56,7 +56,7 @@ CASO 8- PRIMEIRA LINHA E QUALQUER COLUNA
 CASO 9- QUALQUER LINHA E QUALQUER COLUNA
 
 O programa irá escolher de forma aleatória qualquer uma das posições indicadas pelas setas tendo como base a posição do viajante.
-Nessas posições terão os perigos * que tirarão uma vida do viajante. Também há o obstáculo que é uma parede # que não haverá como passar por ela. E existem as posições em que terá números inteiros de 0-9. Quando esse número for maior que zero, o viajante ganhará um item na sua mochila e a cada 4 itens pegos ganhará uma vida. E o número inteiro terá um item subtraído por causa que o viajante pegou um. Se a posição tiver o número 0, ele apenas passará por ela, sem acontecer nada com ele e não terá nenhum item adicionado na mochila.
+Nessas posições terão os perigos * que tirarão uma vida do viajante. Também há o obstáculo que é uma parede # que não haverá como passar por ela. E existem as posições em que terá números inteiros de 0-9. Quando esse número for maior que zero, o viajante ganhará um item na sua mochila e a cada 4 itens pegos, ganhará uma vida. E o número inteiro terá um item subtraído por causa que o viajante pegou um quando o visitou. Se a posição tiver o número 0, ele apenas passará por ela, sem acontecer nada com ele e não terá nenhum item adicionado na mochila.
 
 O viajante poderá se teletransportar para outra matriz. As condições adotadas são se a posição é a última linha e última coluna ou se o viajante já andou dentro de uma matriz pelo menos 20 vezes.O teletransporte é feito para próxima matriz em uma posição aleatória. E isso é verificado no caso que é exceção, o caso 2. 
 
@@ -68,7 +68,7 @@ OU
 
 ![image](https://user-images.githubusercontent.com/102706840/233864471-24d9383b-5418-4a0a-ac39-d2b0c9033689.png)
 
-Caso 2- 20 MOVIMENTAÇÕES
+Caso 2- A CADA 20 MOVIMENTAÇÕES
 
 O teletransporte ocorre como no exemplo abaixo: 
 
@@ -79,7 +79,7 @@ E por último existe o critério para vencer e para perder.
 | CASOS |                  COMO           |
 | -----------------------| ------------------------------------------------------------------------------------------------- |
 | Perder | O viajante visitou muitas casas, muitas delas eram perigos e ele perdeu todas as suas 10 vidas|
-| Ganhar | O viajante visitou muitas casas, sem pegar nenhum item e nem ganhar vida, e conseguiu chegoar no ponto de partida na primeira matriz|
+| Ganhar | O viajante visitou muitas casas, sem pegar nenhum item e nem ganhar vida, e conseguiu chegar no ponto de partida na primeira matriz|
 
 ## Entrada
 
@@ -91,12 +91,12 @@ A entrada é um arquivo input.data que foi fornecido por um programa feito pelo 
 ## Implementação 
  
 Na implementação é usada a linguagem c++ por terem muitas vantagens na manipulação de arquivos. 
-O primeiro passo da implementação é a abertura do arquivo para haver a manipulação do mesmo no programa. Depois se cria um arquivo para cada matriz e também se cria um arquivo para cada matriz com as mesmas dimensões só que preenchidos por 0 para quando for feita a movimentação , cada casa que o viajante visitar se tornar 1 e assim fazer o controle de quantas casas não foram visitadas. Como no exemplo abaixo:
+O primeiro passo da implementação é a abertura do arquivo para haver a manipulação do mesmo no programa. Depois se cria um arquivo para cada matriz e também se cria um arquivo com as mesmas dimensões para cada uma só que preenchidos por 0 para quando for feita a movimentação , cada casa que o viajante visitar se tornar 1 e assim fazer o controle de quantas casas não foram visitadas. Como no exemplo abaixo:
 
 ![image](https://user-images.githubusercontent.com/102706840/233865172-3344dbbc-f960-46ee-8ca8-fa48b43a444a.png)
 
 
-Após isso, há um "do while" que tratará da movimentação do viajante nas matrizes. Nele, há as condições de cada movimentação. Por exemplo, se está na primeira casa da matriz (0,0) irá para uma função em que apenas poderá se movimentar para direita, baixo e diagonal inferior direita e essa movimentação será decidida de forma aleatória. Quando for decidida adireção que o viajante irá, o programa verifica se é perigo, parede ou item(s) e aplica as regras referente a cada um como o exemplo abaixo.
+Após isso, há um "do while" que tratará da movimentação do viajante nas matrizes. Nele, há as condições de cada movimentação. Por exemplo, se está na primeira casa da matriz (0,0) irá para uma função em que apenas poderá se movimentar para direita, baixo e diagonal inferior direita e essa movimentação será decidida de forma aleatória. Quando for decidida a direção que o viajante irá, o programa verifica se é perigo, parede ou item(s) e aplica as regras referente a cada um como o exemplo abaixo.
 
 ![image](https://user-images.githubusercontent.com/102706840/233865206-ef8f889f-e2f9-449c-b813-de698126e850.png)
 
@@ -111,7 +111,7 @@ Veja a seguir no teste:
 ## Informações adicionais
 
 O viajante começa com 10 vidas, com a sacola vazia e da posição (0,0) na primeira matriz.
-O algoritmo não foi tratado para o caso em que a matriz é toda de paredes, se ele for testado com um input.data dessa maneira provavelmente ficará compilando por um bom tempo sem nenhuma saída, será imprevisível visto que não foi testado e nem tratado para essa condição.
+O algoritmo não foi tratado para o caso em que a matriz é toda de paredes, se ele for testado com um input.data dessa maneira ,provavelmente , ficará compilando por um bom tempo sem nenhuma saída, será imprevisível visto que não foi testado e nem tratado para essa condição.
 
 ## Conclusão
 
