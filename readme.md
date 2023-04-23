@@ -72,7 +72,8 @@ Caso 2- 20 MOVIMENTAÇÕES
 
 O teletransporte ocorre como no exemplo abaixo: 
 
-EXEMPLO DE COMO O TELETRANSPORTE É.
+![image](https://user-images.githubusercontent.com/102706840/233865041-725b4f63-85b2-4653-8b27-882ab11965f6.png)
+
 
 E por último existe o critério para vencer e para perder.
 | CASOS |                  COMO           |
