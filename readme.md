@@ -47,7 +47,7 @@ CASO 6- ÚLTIMA COLUNA E QUALQUER LINHA
 
 CASO 7- ÚLTIMA LINHA E QUALQUER COLUNA
 
-![image](https://user-images.githubusercontent.com/102706840/233863835-cdf342a1-74af-4fca-9730-04172382032d.png)
+![image](https://user-images.githubusercontent.com/102706840/233864027-71ebcaa6-04b7-4eb6-86b6-5a18e0d9b2b2.png)
 
 CASO 8- PRIMEIRA LINHA E QUALQUER COLUNA
 
