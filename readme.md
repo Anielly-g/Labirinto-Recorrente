@@ -105,6 +105,8 @@ Após isso, há um "do while" que tratará da movimentação do viajante nas mat
 
 A saída do programa apresenta se você ganhou ou perdeu, depois o número de casas visitadas, quantos itens foram pegos no total , quantos perigos o viajante enfretou e quantas casas não foram visitadas em cada matriz.
 Veja a seguir no teste:
+![image](https://user-images.githubusercontent.com/102706840/233865344-65bd950c-3012-4f58-9206-bb33120963c4.png)
+
 
 ## Informações adicionais
 
@@ -128,4 +130,4 @@ O labirinto recorrente disponibilizado possui um arquivo Makefile que realiza to
 |  `make`                | Executa a compilação do programa utilizando o gcc, e o resultado vai para a pasta build           |
 |  `make run`            | Executa o programa da pasta build após a realização da compilação                                 |
 
-É recomendado executar um `make clean` antes do `make`.
+É recomendado executar um `make clean` antes do `make` e também excluir os arquivos ".data", exceto o "input.data".
