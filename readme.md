@@ -58,10 +58,17 @@ CASO 9- QUALQUER LINHA E QUALQUER COLUNA
 O programa irá escolher de forma aleatória qualquer uma das posições indicadas pelas setas tendo como base a posição do viajante.
 Nessas posições terão os perigos * que tirarão uma vida do viajante. Também há o obstáculo que é uma parede # que não haverá como passar por ela. E existem as posições em que terá números inteiros de 0-9. Quando esse número for maior que zero, o viajante ganhará um item na sua mochila e a cada 4 itens pegos ganhará uma vida. E o número inteiro terá um item subtraído por causa que o viajante pegou um. Se a posição tiver o número 0, ele apenas passará por ela, sem acontecer nada com ele e não terá nenhum item adicionado na mochila.
 
-O viajante poderá se teletransportar para outra matriz. As condições adotadas são se a posição é a última linha e última coluna ou se o viajante já andou dentro de uma matriz pelo menos 20 vezes. E isso é verificado no caso que é exceção, o caso 2. 
+O viajante poderá se teletransportar para outra matriz. As condições adotadas são se a posição é a última linha e última coluna ou se o viajante já andou dentro de uma matriz pelo menos 20 vezes.O teletransporte é feito para próxima matriz em uma posição aleatória. E isso é verificado no caso que é exceção, o caso 2. 
 
-FIGURA CASO 2
-CASO 2 - ÚLTIMA LINHA E ÚLTIMA COLUNA DA MATRIZ OU 20 MOVIMENTAÇÕES
+![image](https://user-images.githubusercontent.com/102706840/233864228-6bcfff50-fec9-4d2d-acfe-056c60adcf48.png)
+
+CASO 2 - ÚLTIMA LINHA E ÚLTIMA COLUNA DA MATRIZ
+
+OU 
+
+![image](https://user-images.githubusercontent.com/102706840/233864471-24d9383b-5418-4a0a-ac39-d2b0c9033689.png)
+
+Caso 2- 20 MOVIMENTAÇÕES
 
 O teletransporte ocorre como no exemplo abaixo: 
 
