@@ -15,7 +15,7 @@ Segunda atividade avaliativa da disciplina Algoritmos e Estruturas de Dados I so
 
 Qual o custo computacional da sua estratégia randômica? Se mostrou uma boa alternativa de execução?
 
-#Interpretação do problema 
+##Interpretação do problema 
 
 O caminho vai ser lido a partir de um arquivo chamado input.data. Na primeira linha do arquivo terá o número de linhas e colunas que serão as dimensões da matriz e também quantas matrizes há no arquivo. 
 
