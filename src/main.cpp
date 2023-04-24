@@ -3,10 +3,12 @@
 #include <cstdlib>
 #include <ctime>
 #include <string>
+#include <chrono>
 
 using namespace std;
 
 int main() {
+    auto inicio=chrono::high_resolution_clock::now();
     char** matriz;
     ifstream input;
     ofstream output;
@@ -92,6 +94,10 @@ int main() {
     }
     delete[] matriz;
 
+    auto fim=chrono::high_resolution_clock::now();
+    auto total=chrono::duration_cast<chrono::microseconds>(fim-inicio);
 
+    cout<<" O tempo de execução foi de "<< total.count();
+    cout<<" microsegundos."<<endl;
     return 0;
 }
