@@ -105,6 +105,7 @@ Após isso, há um "do while" que tratará da movimentação do viajante nas mat
 
 A saída do programa apresenta se você ganhou ou perdeu, depois o número de casas visitadas, quantos itens foram pegos no total , quantos perigos o viajante enfretou e quantas casas não foram visitadas em cada matriz.
 Veja a seguir no teste:
+
 ![image](https://user-images.githubusercontent.com/102706840/233865344-65bd950c-3012-4f58-9206-bb33120963c4.png)
 
 
